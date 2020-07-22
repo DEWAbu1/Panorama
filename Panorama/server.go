@@ -28,6 +28,7 @@ func main() {
 
 	// #region picture
 	http.HandleFunc("/pictures", handler.Pictures)
+	//pictures microservices still lacks upload image file to projects folder and save filename to database
 	http.HandleFunc("/pictures/insert", handler.HandleInsertPicture)
 	http.HandleFunc("/pictures/delete", handler.HandleDeletePicture)
 	http.HandleFunc("/pictures/update", handler.HandleUpdatePicture)
