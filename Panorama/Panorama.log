@@ -1,0 +1,312 @@
+2020/01/02 09:14:43 server.go:24: Server is listening on port :8080
+2020/01/02 09:17:06 server.go:25: Server is listening on port :8080
+2020/01/02 09:18:36 normalHandlers.go:23: halo
+2020/01/02 09:18:52 normalHandlers.go:23: [20.5 20.2 20.1]
+2020/01/02 09:20:07 server.go:25: Server is listening on port :8080
+2020/01/02 09:20:09 normalHandlers.go:20: 20.5
+2020/01/02 09:20:09 normalHandlers.go:20: 20.2
+2020/01/02 09:20:09 normalHandlers.go:20: 20.1
+2020/01/02 09:20:39 normalHandlers.go:20: 20.5
+2020/01/02 09:20:39 normalHandlers.go:20: 20
+2020/01/02 09:20:39 normalHandlers.go:20: 20
+2020/01/02 09:20:51 server.go:3012: http: panic serving [::1]:52544: interface conversion: interface {} is []int64, not []float64
+goroutine 18 [running]:
+net/http.(*conn).serve.func1(0xc0000f0000)
+	C:/Go/src/net/http/server.go:1769 +0x140
+panic(0x6af700, 0xc0000d8810)
+	C:/Go/src/runtime/panic.go:522 +0x1c3
+SalesLetter/handler.Home(0x764d60, 0xc0001041c0, 0xc0000e8200)
+	D:/Projects/GOP/src/SalesLetter/handler/normalHandlers.go:18 +0x1a6
+net/http.HandlerFunc.ServeHTTP(0x716038, 0x764d60, 0xc0001041c0, 0xc0000e8200)
+	C:/Go/src/net/http/server.go:1995 +0x4b
+net/http.(*ServeMux).ServeHTTP(0x948060, 0x764d60, 0xc0001041c0, 0xc0000e8200)
+	C:/Go/src/net/http/server.go:2375 +0x1dd
+main.loggingMiddleware.func1(0x764d60, 0xc0001041c0, 0xc0000e8200)
+	D:/Projects/GOP/src/SalesLetter/server.go:56 +0x10d
+net/http.HandlerFunc.ServeHTTP(0xc000004720, 0x764d60, 0xc0001041c0, 0xc0000e8200)
+	C:/Go/src/net/http/server.go:1995 +0x4b
+net/http.serverHandler.ServeHTTP(0xc000054b60, 0x764d60, 0xc0001041c0, 0xc0000e8200)
+	C:/Go/src/net/http/server.go:2774 +0xaf
+net/http.(*conn).serve(0xc0000f0000, 0x7652a0, 0xc00001a480)
+	C:/Go/src/net/http/server.go:1878 +0x858
+created by net/http.(*Server).Serve
+	C:/Go/src/net/http/server.go:2884 +0x2fb
+2020/01/02 09:21:30 normalHandlers.go:20: 20
+2020/01/02 09:21:30 normalHandlers.go:20: 20.5
+2020/01/02 09:21:30 normalHandlers.go:20: 20
+2020/01/02 09:26:30 server.go:25: Server is listening on port :8080
+2020/01/02 09:26:34 server.go:25: Server is listening on port :8080
+2020/01/02 09:26:36 normalHandlers.go:20: 20
+2020/01/02 09:26:36 normalHandlers.go:20: 20.5
+2020/01/02 09:26:36 normalHandlers.go:20: 20
+2020/01/02 09:27:41 server.go:3012: http: panic serving [::1]:52660: interface conversion: interface {} is []string, not []float64
+goroutine 4 [running]:
+net/http.(*conn).serve.func1(0xc0000f8000)
+	C:/Go/src/net/http/server.go:1769 +0x140
+panic(0x6af700, 0xc0000ec5d0)
+	C:/Go/src/runtime/panic.go:522 +0x1c3
+SalesLetter/handler.Home(0x764d60, 0xc0001060e0, 0xc0000f4100)
+	D:/Projects/GOP/src/SalesLetter/handler/normalHandlers.go:18 +0x1a6
+net/http.HandlerFunc.ServeHTTP(0x716038, 0x764d60, 0xc0001060e0, 0xc0000f4100)
+	C:/Go/src/net/http/server.go:1995 +0x4b
+net/http.(*ServeMux).ServeHTTP(0x948060, 0x764d60, 0xc0001060e0, 0xc0000f4100)
+	C:/Go/src/net/http/server.go:2375 +0x1dd
+main.loggingMiddleware.func1(0x764d60, 0xc0001060e0, 0xc0000f4100)
+	D:/Projects/GOP/src/SalesLetter/server.go:56 +0x10d
+net/http.HandlerFunc.ServeHTTP(0xc00005a6e0, 0x764d60, 0xc0001060e0, 0xc0000f4100)
+	C:/Go/src/net/http/server.go:1995 +0x4b
+net/http.serverHandler.ServeHTTP(0xc0000569c0, 0x764d60, 0xc0001060e0, 0xc0000f4100)
+	C:/Go/src/net/http/server.go:2774 +0xaf
+net/http.(*conn).serve(0xc0000f8000, 0x7652a0, 0xc000060400)
+	C:/Go/src/net/http/server.go:1878 +0x858
+created by net/http.(*Server).Serve
+	C:/Go/src/net/http/server.go:2884 +0x2fb
+2020/01/02 09:29:27 server.go:25: Server is listening on port :8080
+2020/01/02 09:29:30 normalHandlers.go:20: 20
+2020/01/02 09:29:30 normalHandlers.go:20: 20.5
+2020/01/02 09:29:30 normalHandlers.go:20: 20
+2020/01/02 09:29:39 normalHandlers.go:23: anton bukan string
+2020/01/02 09:32:56 server.go:25: Server is listening on port :8080
+2020/01/02 09:33:01 normalHandlers.go:24: false
+2020/01/02 09:33:01 normalHandlers.go:25: anton bukan array string
+2020/01/02 09:57:06 server.go:25: Server is listening on port :8080
+2020/01/02 09:57:12 normalHandlers.go:23: false
+2020/01/02 09:57:41 normalHandlers.go:20: 20
+2020/01/02 09:57:41 normalHandlers.go:20: 20.5
+2020/01/02 09:57:41 normalHandlers.go:20: 20
+2020/01/02 09:57:41 normalHandlers.go:23: true
+2020/01/02 09:58:04 server.go:25: Server is listening on port :8080
+2020/01/02 09:58:08 normalHandlers.go:20: 20
+2020/01/02 09:58:08 normalHandlers.go:20: 20.5
+2020/01/02 09:58:08 normalHandlers.go:20: 20
+2020/01/02 09:59:37 normalHandlers.go:20: 20
+2020/01/02 09:59:37 normalHandlers.go:20: 20.5
+2020/01/02 09:59:37 normalHandlers.go:20: 20
+2020/01/02 10:00:29 server.go:25: Server is listening on port :8080
+2020/01/02 13:06:57 server.go:25: Server is listening on port :8080
+2020/01/03 10:45:28 server.go:25: Server is listening on port :8080
+2020/01/03 11:14:53 server.go:25: Server is listening on port :8080
+2020/01/03 11:16:44 server.go:25: Server is listening on port :8080
+2020/01/03 11:17:15 Customer.go:33: &{ map[address:Pamulang email:dewabu1@gmail.com name:anton phone:123223123 zipcode:15417] 0xc00001a3c0 true 0xc00005ada0 SalesLetter}
+2020/01/03 13:32:55 server.go:25: Server is listening on port :8080
+2020/01/03 13:40:31 server.go:25: Server is listening on port :8080
+2020/01/03 15:45:44 server.go:25: Server is listening on port :8080
+2020/01/03 17:21:03 server.go:25: Server is listening on port :8080
+2020/01/06 11:39:32 server.go:25: Server is listening on port :8080
+2020/01/06 14:20:17 server.go:25: Server is listening on port :8080
+2020/01/06 14:27:35 server.go:25: Server is listening on port :8080
+2020/01/06 15:26:36 server.go:25: Server is listening on port :8080
+2020/01/06 15:53:48 server.go:27: Server is listening on port :8080
+2020/07/21 14:28:19 server.go:30: Server is listening on port :8080
+2020/07/21 14:30:08 server.go:30: Server is listening on port :8080
+2020/07/21 14:30:26 server.go:30: Server is listening on port :28080
+2020/07/21 14:30:28 mysql.go:19: sql: unknown driver "mysql" (forgotten import?)
+2020/07/21 14:30:28 server.go:3012: http: panic serving [::1]:54427: runtime error: invalid memory address or nil pointer dereference
+goroutine 20 [running]:
+net/http.(*conn).serve.func1(0xc000058a00)
+	C:/Go/src/net/http/server.go:1769 +0x140
+panic(0x6de300, 0x99c680)
+	C:/Go/src/runtime/panic.go:522 +0x1c3
+database/sql.(*DB).conn(0x0, 0x7a6460, 0xc00006a0b0, 0x1, 0x2e, 0x80, 0x51)
+	C:/Go/src/database/sql/sql.go:1080 +0x41
+database/sql.(*DB).query(0x0, 0x7a6460, 0xc00006a0b0, 0x747350, 0x2a, 0x0, 0x0, 0x0, 0x1, 0x40, ...)
+	C:/Go/src/database/sql/sql.go:1513 +0x6d
+database/sql.(*DB).QueryContext(0x0, 0x7a6460, 0xc00006a0b0, 0x747350, 0x2a, 0x0, 0x0, 0x0, 0x7a0b00, 0x750cb8, ...)
+	C:/Go/src/database/sql/sql.go:1495 +0xd8
+database/sql.(*DB).Query(...)
+	C:/Go/src/database/sql/sql.go:1509
+Panorama/pages.PanoramaData(0xc0000f9bf8)
+	D:/Projects/GOP/src/Panorama/pages/Panorama.go:13 +0xe2
+Panorama/handler.Panorama(0x7a5e20, 0xc000108000, 0xc0000fc100)
+	D:/Projects/GOP/src/Panorama/handler/normalHandlers.go:17 +0x29
+net/http.HandlerFunc.ServeHTTP(0x750cb8, 0x7a5e20, 0xc000108000, 0xc0000fc100)
+	C:/Go/src/net/http/server.go:1995 +0x4b
+net/http.(*ServeMux).ServeHTTP(0x9a88c0, 0x7a5e20, 0xc000108000, 0xc0000fc100)
+	C:/Go/src/net/http/server.go:2375 +0x1dd
+main.loggingMiddleware.func1(0x7a5e20, 0xc000108000, 0xc0000fc100)
+	D:/Projects/GOP/src/Panorama/server.go:61 +0x10d
+net/http.HandlerFunc.ServeHTTP(0xc000062e80, 0x7a5e20, 0xc000108000, 0xc0000fc100)
+	C:/Go/src/net/http/server.go:1995 +0x4b
+net/http.serverHandler.ServeHTTP(0xc000065ba0, 0x7a5e20, 0xc000108000, 0xc0000fc100)
+	C:/Go/src/net/http/server.go:2774 +0xaf
+net/http.(*conn).serve(0xc000058a00, 0x7a6420, 0xc000067980)
+	C:/Go/src/net/http/server.go:1878 +0x858
+created by net/http.(*Server).Serve
+	C:/Go/src/net/http/server.go:2884 +0x2fb
+2020/07/21 14:32:06 server.go:30: Server is listening on port :28080
+2020/07/21 14:32:12 Panorama.go:15: Error 1146: Table 'panorama.panorama' doesn't exist
+2020/07/21 14:32:12 server.go:3012: http: panic serving [::1]:54442: runtime error: invalid memory address or nil pointer dereference
+goroutine 4 [running]:
+net/http.(*conn).serve.func1(0xc000108000)
+	C:/Go/src/net/http/server.go:1769 +0x140
+panic(0x7010a0, 0x9da6d0)
+	C:/Go/src/runtime/panic.go:522 +0x1c3
+database/sql.(*Rows).Next(0x0, 0xa01678)
+	C:/Go/src/database/sql/sql.go:2657 +0x37
+Panorama/pages.PanoramaData(0xc0000f7bf8)
+	D:/Projects/GOP/src/Panorama/pages/Panorama.go:21 +0x1f4
+Panorama/handler.Panorama(0x7cfd20, 0xc0000e41c0, 0xc00010e000)
+	D:/Projects/GOP/src/Panorama/handler/normalHandlers.go:17 +0x29
+net/http.HandlerFunc.ServeHTTP(0x7775c8, 0x7cfd20, 0xc0000e41c0, 0xc00010e000)
+	C:/Go/src/net/http/server.go:1995 +0x4b
+net/http.(*ServeMux).ServeHTTP(0x9e6be0, 0x7cfd20, 0xc0000e41c0, 0xc00010e000)
+	C:/Go/src/net/http/server.go:2375 +0x1dd
+main.loggingMiddleware.func1(0x7cfd20, 0xc0000e41c0, 0xc00010e000)
+	D:/Projects/GOP/src/Panorama/server.go:61 +0x10d
+net/http.HandlerFunc.ServeHTTP(0xc000062ee0, 0x7cfd20, 0xc0000e41c0, 0xc00010e000)
+	C:/Go/src/net/http/server.go:1995 +0x4b
+net/http.serverHandler.ServeHTTP(0xc000065c70, 0x7cfd20, 0xc0000e41c0, 0xc00010e000)
+	C:/Go/src/net/http/server.go:2774 +0xaf
+net/http.(*conn).serve(0xc000108000, 0x7d03e0, 0xc0000678c0)
+	C:/Go/src/net/http/server.go:1878 +0x858
+created by net/http.(*Server).Serve
+	C:/Go/src/net/http/server.go:2884 +0x2fb
+2020/07/21 14:33:00 server.go:30: Server is listening on port :28080
+2020/07/21 14:54:52 server.go:20: Server is listening on port :28080
+2020/07/21 14:55:23 Years.go:15: Error 1054: Unknown column 'picture' in 'field list'
+2020/07/21 14:55:23 server.go:3012: http: panic serving [::1]:54851: runtime error: invalid memory address or nil pointer dereference
+goroutine 4 [running]:
+net/http.(*conn).serve.func1(0xc000100000)
+	C:/Go/src/net/http/server.go:1769 +0x140
+panic(0x6d5de0, 0x985630)
+	C:/Go/src/runtime/panic.go:522 +0x1c3
+database/sql.(*Rows).Next(0x0, 0x9abec8)
+	C:/Go/src/database/sql/sql.go:2657 +0x37
+Panorama/pages.YearData(0x1)
+	D:/Projects/GOP/src/Panorama/pages/Years.go:20 +0x1bd
+Panorama/handler.Years(0x797d60, 0xc00010c1c0, 0xc0000fc200)
+	D:/Projects/GOP/src/Panorama/handler/normalHandlers.go:29 +0x29
+net/http.HandlerFunc.ServeHTTP(0x7459a0, 0x797d60, 0xc00010c1c0, 0xc0000fc200)
+	C:/Go/src/net/http/server.go:1995 +0x4b
+net/http.(*ServeMux).ServeHTTP(0x991480, 0x797d60, 0xc00010c1c0, 0xc0000fc200)
+	C:/Go/src/net/http/server.go:2375 +0x1dd
+main.loggingMiddleware.func1(0x797d60, 0xc00010c1c0, 0xc0000fc200)
+	D:/Projects/GOP/src/Panorama/server.go:51 +0xe1
+net/http.HandlerFunc.ServeHTTP(0xc000062740, 0x797d60, 0xc00010c1c0, 0xc0000fc200)
+	C:/Go/src/net/http/server.go:1995 +0x4b
+net/http.serverHandler.ServeHTTP(0xc00005e9c0, 0x797d60, 0xc00010c1c0, 0xc0000fc200)
+	C:/Go/src/net/http/server.go:2774 +0xaf
+net/http.(*conn).serve(0xc000100000, 0x798360, 0xc000066400)
+	C:/Go/src/net/http/server.go:1878 +0x858
+created by net/http.(*Server).Serve
+	C:/Go/src/net/http/server.go:2884 +0x2fb
+2020/07/21 14:55:51 server.go:20: Server is listening on port :28080
+2020/07/21 15:22:18 server.go:20: Server is listening on port :28080
+2020/07/21 15:23:20 server.go:21: Server is listening on port :28080
+2020/07/21 15:25:29 server.go:32: Server is listening on port :28080
+2020/07/21 15:52:58 server.go:32: Server is listening on port :28080
+2020/07/21 15:54:07 server.go:32: Server is listening on port :28080
+2020/07/21 16:11:45 server.go:32: Server is listening on port :28080
+2020/07/21 16:14:38 server.go:32: Server is listening on port :28080
+2020/07/21 16:22:26 server.go:32: Server is listening on port :28080
+2020/07/21 16:22:29 normalHandlers.go:43: &{map[]}
+2020/07/21 16:22:43 normalHandlers.go:43: &{map[]}
+2020/07/21 16:22:53 normalHandlers.go:43: &{map[year:2033]}
+2020/07/21 16:23:25 server.go:32: Server is listening on port :28080
+2020/07/21 16:23:30 normalHandlers.go:43: &{map[]}
+2020/07/21 16:24:53 server.go:32: Server is listening on port :28080
+2020/07/21 16:24:55 normalHandlers.go:43: 
+2020/07/21 16:25:10 normalHandlers.go:43: 2033
+2020/07/21 16:25:10 normalHandlers.go:145: year [2033]
+2020/07/21 16:25:40 server.go:32: Server is listening on port :28080
+2020/07/21 16:25:42 normalHandlers.go:142: year [2033]
+2020/07/21 16:26:16 server.go:32: Server is listening on port :28080
+2020/07/21 16:26:18 normalHandlers.go:43: &{map[year:[2033]]}
+2020/07/21 16:26:51 server.go:32: Server is listening on port :28080
+2020/07/21 16:26:53 normalHandlers.go:44: [2033]
+2020/07/21 16:28:56 server.go:32: Server is listening on port :28080
+2020/07/21 16:29:44 server.go:32: Server is listening on port :28080
+2020/07/21 16:30:27 server.go:32: Server is listening on port :28080
+2020/07/21 16:30:29 server.go:3012: http: panic serving [::1]:56356: interface conversion: interface {} is []string, not []int
+goroutine 4 [running]:
+net/http.(*conn).serve.func1(0xc000100000)
+	C:/Go/src/net/http/server.go:1769 +0x140
+panic(0x6e9da0, 0xc0000f6390)
+	C:/Go/src/runtime/panic.go:522 +0x1c3
+Panorama/pages.InsertYear(0x6ca9a0, 0xc000004120, 0x0)
+	D:/Projects/GOP/src/Panorama/pages/Years.go:34 +0x57f
+Panorama/handler.InsertYear(0x7aca20, 0xc00010c000, 0xc000106000)
+	D:/Projects/GOP/src/Panorama/handler/normalHandlers.go:44 +0x6d
+net/http.HandlerFunc.ServeHTTP(0x757858, 0x7aca20, 0xc00010c000, 0xc000106000)
+	C:/Go/src/net/http/server.go:1995 +0x4b
+net/http.(*ServeMux).ServeHTTP(0x9b04c0, 0x7aca20, 0xc00010c000, 0xc000106000)
+	C:/Go/src/net/http/server.go:2375 +0x1dd
+main.loggingMiddleware.func1(0x7aca20, 0xc00010c000, 0xc000106000)
+	D:/Projects/GOP/src/Panorama/server.go:63 +0xe1
+net/http.HandlerFunc.ServeHTTP(0xc000060760, 0x7aca20, 0xc00010c000, 0xc000106000)
+	C:/Go/src/net/http/server.go:1995 +0x4b
+net/http.serverHandler.ServeHTTP(0xc000062750, 0x7aca20, 0xc00010c000, 0xc000106000)
+	C:/Go/src/net/http/server.go:2774 +0xaf
+net/http.(*conn).serve(0xc000100000, 0x7ad120, 0xc000066400)
+	C:/Go/src/net/http/server.go:1878 +0x858
+created by net/http.(*Server).Serve
+	C:/Go/src/net/http/server.go:2884 +0x2fb
+2020/07/21 17:18:04 server.go:32: Server is listening on port :28080
+2020/07/21 17:27:25 server.go:43: Server is listening on port :28080
+2020/07/21 17:31:01 Years.go:87: Error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '* from year where year = ?' at line 1
+2020/07/21 17:32:01 server.go:43: Server is listening on port :28080
+2020/07/21 17:33:24 server.go:43: Server is listening on port :28080
+2020/07/21 17:33:26 Years.go:35: 
+2020/07/21 17:33:59 Years.go:35: [2033]
+2020/07/21 17:35:31 server.go:43: Server is listening on port :28080
+2020/07/21 17:51:08 server.go:43: Server is listening on port :28080
+2020/07/21 17:51:46 server.go:3012: http: panic serving [::1]:57644: assignment to entry in nil map
+goroutine 4 [running]:
+net/http.(*conn).serve.func1(0xc000100000)
+	C:/Go/src/net/http/server.go:1769 +0x140
+panic(0x6e7940, 0x7a3970)
+	C:/Go/src/runtime/panic.go:522 +0x1c3
+Panorama/pages.UpdateYear(0xc000081aa0, 0xc000081aa0)
+	D:/Projects/GOP/src/Panorama/pages/Years.go:105 +0x198
+Panorama/handler.HandleUpdateYear(0x7ae240, 0xc0001100e0, 0xc0000fc100)
+	D:/Projects/GOP/src/Panorama/handler/normalHandlers.go:60 +0x1b5
+net/http.HandlerFunc.ServeHTTP(0x758e18, 0x7ae240, 0xc0001100e0, 0xc0000fc100)
+	C:/Go/src/net/http/server.go:1995 +0x4b
+net/http.(*ServeMux).ServeHTTP(0x9b24c0, 0x7ae240, 0xc0001100e0, 0xc0000fc100)
+	C:/Go/src/net/http/server.go:2375 +0x1dd
+main.loggingMiddleware.func1(0x7ae240, 0xc0001100e0, 0xc0000fc100)
+	D:/Projects/GOP/src/Panorama/server.go:74 +0xe1
+net/http.HandlerFunc.ServeHTTP(0xc000062760, 0x7ae240, 0xc0001100e0, 0xc0000fc100)
+	C:/Go/src/net/http/server.go:1995 +0x4b
+net/http.serverHandler.ServeHTTP(0xc00005eb60, 0x7ae240, 0xc0001100e0, 0xc0000fc100)
+	C:/Go/src/net/http/server.go:2774 +0xaf
+net/http.(*conn).serve(0xc000100000, 0x7ae980, 0xc000066440)
+	C:/Go/src/net/http/server.go:1878 +0x858
+created by net/http.(*Server).Serve
+	C:/Go/src/net/http/server.go:2884 +0x2fb
+2020/07/21 17:52:44 server.go:43: Server is listening on port :28080
+2020/07/21 17:53:39 server.go:43: Server is listening on port :28080
+2020/07/21 17:53:42 Years.go:97: map[newyear: oldyear:[2018]]
+2020/07/21 17:54:05 server.go:43: Server is listening on port :28080
+2020/07/21 17:54:07 Years.go:97: map[newyear:[2077] oldyear:[2018]]
+2020/07/21 17:54:07 Years.go:117: Error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'where year = ?' at line 1
+2020/07/21 17:54:29 server.go:43: Server is listening on port :28080
+2020/07/21 17:54:31 Years.go:97: map[newyear:[2077] oldyear:[2018]]
+2020/07/21 17:54:42 server.go:43: Server is listening on port :28080
+2020/07/21 17:55:12 server.go:43: Server is listening on port :28080
+2020/07/21 17:57:22 server.go:43: Server is listening on port :28080
+2020/07/21 17:58:00 server.go:43: Server is listening on port :28080
+2020/07/22 10:23:08 server.go:43: Server is listening on port :28080
+2020/07/22 10:26:00 server.go:43: Server is listening on port :28080
+2020/07/22 10:26:41 Places.go:108: map[newplace:placeX oldplace:placeB]
+2020/07/22 11:29:05 server.go:43: Server is listening on port :28080
+2020/07/22 11:36:06 server.go:43: Server is listening on port :28080
+2020/07/22 11:37:58 Tags.go:49: json: cannot unmarshal array into Go struct field InsertTag.date of type string
+2020/07/22 11:39:56 Tags.go:65: Error 1136: Column count doesn't match value count at row 1
+2020/07/22 11:40:32 server.go:43: Server is listening on port :28080
+2020/07/22 11:40:34 Tags.go:65: sql: expected 7 arguments, got 6
+2020/07/22 11:41:13 server.go:43: Server is listening on port :28080
+2020/07/22 11:44:56 server.go:43: Server is listening on port :28080
+2020/07/22 11:45:11 Tags.go:113: json: cannot unmarshal string into Go struct field UpdateTag.id of type int
+2020/07/22 11:45:15 Tags.go:131: sql: expected 8 arguments, got 6
+2020/07/22 11:46:55 server.go:43: Server is listening on port :28080
+2020/07/22 11:47:13 Tags.go:131: sql: expected 8 arguments, got 7
+2020/07/22 11:47:39 server.go:43: Server is listening on port :28080
+2020/07/22 11:50:00 server.go:43: Server is listening on port :28080
+2020/07/22 12:02:48 server.go:43: Server is listening on port :28080
+2020/07/22 14:08:10 server.go:43: Server is listening on port :28080
+2020/07/22 14:10:29 Pictures.go:47: json: cannot unmarshal string into Go struct field InsertPicture.place of type int
+2020/07/22 14:11:20 server.go:43: Server is listening on port :28080
+2020/07/22 14:12:17 server.go:43: Server is listening on port :28080
+2020/07/22 14:16:27 server.go:43: Server is listening on port :28080
+2020/07/22 14:17:48 server.go:43: Server is listening on port :28080
